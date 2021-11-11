@@ -51,4 +51,15 @@ function countDown(x) {
     }
 }
 
+//if you use x > 0, then you need to print 0 (to pass the npm test):
+/*
+function countDown( startingNumber ) {
+  while ( startingNumber > 0 ) {
+    console.log( startingNumber );
+    startingNumber -= 1;
+  }
+  console.log( startingNumber ); //prints 0 after all iterations executed, that is, starting number reaches 0
+}
+*/
+
 countDown(10);
